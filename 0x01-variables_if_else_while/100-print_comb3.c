@@ -10,26 +10,26 @@
 
 int main(void)
 {
-	int i = '0';
+	int d, p;
 
-	while (i <= '9')
+	for (d = '0'; d < '9'; d++)
 	{
-		int j = '0';
-
-		while (j <= '9')
+		for (p = d + 1; p <= '9'; p++)
 		{
-			if (i  < j)
+			if (p != d)
 			{
-				putchar(i);
-				putchar(j);
-				if (i == '8' && j == '9')
-					break;
+				putchar(d);
+				putchar(p);
+
+				if (d == '8' && p == '9')
+					continue;
+
 				putchar(',');
 				putchar(' ');
 			}
-			j++;
 		}
-		i++;
 	}
 	putchar('\n');
+
+	return (0);
 }
