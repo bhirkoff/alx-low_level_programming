@@ -9,9 +9,10 @@
 
 int main(void)
 {
-	char a = "_putchar";
+	char a = "putchar";
 	int i = 0;
 	int s = sizeof(a) / sizeof(char);
+	putchar('_');
 
 	while ( a[i] < s)
 	{
