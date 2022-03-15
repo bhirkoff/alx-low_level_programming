@@ -1,9 +1,9 @@
-#include <stdio.h>
 #include "main.h"
 
-/**main - Entry point
+/**
+ * print_alphabet - Entry point
  *
- * Return: Always 0 (Success)
+ * Description: function to transform uppercase to lowercase 
  */
 
 void print_alphabet(void)
