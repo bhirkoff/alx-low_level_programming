@@ -3,7 +3,7 @@
 /**
  * print_alphabet - Entry point
  *
- * Description: function to transform uppercase to lowercase 
+ * Description: function to transform uppercase to lowercase
  */
 
 void print_alphabet(void)
