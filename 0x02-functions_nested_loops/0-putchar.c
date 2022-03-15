@@ -9,15 +9,15 @@
 
 int main(void)
 {
-	char a = "putchar";
+	char s[9] = "_putchar";
 	int i = 0;
-	int s = sizeof(a) / sizeof(char);
-	putchar('_');
 
-	while ( a[i] < s)
+	while ( i < 8)
 	{
-		putchar(a[i]);
+		_putchar(s[i]);
 		i++;
 	}
 	putchar('\n');
+
+	return (0);
 }
