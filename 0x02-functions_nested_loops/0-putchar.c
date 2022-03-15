@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <main.h>
-#include "main.h"
 
 /**
  * main - Entry point
@@ -12,9 +11,9 @@ int main(void)
 {
 	char a[] = "_putchar";
 	int i = 0;
-	int s = sizeof(a) / sizeof(char);
+	int length = sizeof(a) / sizeof(char);
 
-	while ( a[i] < s)
+	while ( a[i] < length)
 	{
 		putchar(a[i]);
 		i++;
