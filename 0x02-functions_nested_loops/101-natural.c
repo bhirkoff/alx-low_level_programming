@@ -11,7 +11,7 @@
 int main(void)
 {
 	int i = 1;
-	int toltal = 0;
+	int total = 0;
 
 	while (i < 1024)
 	{
@@ -20,7 +20,7 @@ int main(void)
 		else if (i % 5 == 0)
 			total += i;
 
-		i++
+		i++;
 	}
 	printf("%d\n", total);
 
