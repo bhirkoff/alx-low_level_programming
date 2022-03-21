@@ -10,5 +10,13 @@
 
 int _strlen(char *s)
 {
-	_putchar("%d", strlen(s));
+	int i;
+	int length;
+
+	while ( s[i] < s.length)
+	{
+		i++;
+		length = i;
+	}
+	return (length);
 }
