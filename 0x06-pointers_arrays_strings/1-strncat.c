@@ -17,7 +17,10 @@ char *_strncat(char *dest, char *src, int n)
 		}
 		do
 		{
-			if (0 == (*dest = *src++)) break;
+			if (0 == (*dest = *src++))
+			{
+				break;
+			}
 			dest++;
 		}
 		while (--n != 0);
