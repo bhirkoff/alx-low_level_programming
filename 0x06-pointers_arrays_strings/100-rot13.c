@@ -16,7 +16,7 @@ char *rot13(char *s)
 	for (; *s; s++)
 	{
 		for (i = 0; rot13in[i]; i++)
-			if (*s == rot13in[i]; i++)
+			if (*s == rot13in[i])
 			{
 				*s = rot13out[i];
 				break;
