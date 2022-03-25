@@ -8,7 +8,7 @@
  */
 char *leet(char *s)
 {
-	char *ret = s, leetin = LEETIN, *leetout = LEETOUT;
+	char *ret = s, *leetin = LEETIN, *leetout = LEETOUT;
 	int i = 0;
 
 	for (; *s; s++)
