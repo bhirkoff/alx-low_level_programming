@@ -1,5 +1,6 @@
 #include "main.h"
-
+#define LEETIN "aAeEoOtTlL"
+#define LEETOUT "4433007711"
 /**
  * leet - encodes a string into 1337
  * @s: the string to encode
