@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _strncat - a function that concentrates two strings
- * @dest: string 1
- * @src: string 2
- * @n: amount
+ * _strncat - a function that concatenates two strings
+ * @dest: string
+ * @src: string
+ * @n: number of elemennts to concatenate
  * Return: pointer to dest
  */
 
