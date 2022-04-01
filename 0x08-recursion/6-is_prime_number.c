@@ -48,4 +48,4 @@ int hai(int n, int d)
 		return (1);
 	else
 		return (hai(n, d + 1));
-} 
+}
